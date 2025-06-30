@@ -800,7 +800,7 @@ As an IT Support Specialist, you'll:
 - Set up monitors, projectors, or docking stations with the correct video/audio cables.
 
 ---
-# 🔌 Connector Types & Projectors – Summary for IT Support
+# 🔌 Connector Types & Projectors – Supplemental reading
 
 ## 🧷 Connector Types
 
