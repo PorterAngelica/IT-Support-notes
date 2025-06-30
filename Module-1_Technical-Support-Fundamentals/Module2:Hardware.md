@@ -1,6 +1,6 @@
-# 🧠 Module 1: Computer Hardware
+# 🧠 Module 2: Computer Hardware
 
-Welcome to the first module of the **Google IT Support Professional Certificate**. These notes cover everything related to the physical components of a computer — also known as hardware.
+Welcome to the second module of the **Google IT Support Professional Certificate**. These notes cover everything related to the physical components of a computer — also known as hardware.
 
 ---
 
