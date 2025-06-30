@@ -879,5 +879,395 @@ Projectors function like other display devices but have specific maintenance and
 - Cables are a frequent point of failure.
 - Ensure correct drivers and lighting systems are maintained.
 - Always calibrate after any physical adjustments.
+---
+# How Devices Talk to Each Other & Boot Up
+
+## How Input Devices Work (Keyboard, Mouse, etc.)
+Devices like keyboards don't have built-in instructions the CPU can use.
+
+So, the system needs device drivers:  
+➤ Small programs that tell the CPU how to communicate with external devices.
+
+---
+
+## BIOS & UEFI
+
+### BIOS (Basic Input/Output System)
+- Stored in ROM (Read-Only Memory) on the motherboard.
+- Initializes hardware and starts the boot process.
+- Loads just enough to start the operating system.
+
+### ROM vs RAM
+
+| ROM                | RAM                      |
+|--------------------|--------------------------|
+| Non-volatile (data stays) | Volatile (cleared on power off) |
+| Stores BIOS/firmware | Stores temporary working memory for programs |
+
+### UEFI (Unified Extensible Firmware Interface)
+- Modern replacement for BIOS.
+- Has better security, supports larger hard drives, and has a graphical interface.
+- Most new computers use UEFI instead of legacy BIOS.
+
+---
+
+## Boot Process and POST
+
+### Power-On Self Test (POST)
+- Runs before BIOS initializes hardware.
+- Checks for hardware issues (RAM, CPU, GPU).
+- If there's an error:
+  - Beep codes are produced (like Morse code).
+  - Different motherboard manufacturers have different beep meanings.
+  - Example: 1 beep = good, 2 beeps = error (depends on manual).
+- Not all systems have internal speakers, so no beep ≠ broken.
+
+---
+
+## CMOS & BIOS Settings
+
+### CMOS Chip
+- Stores BIOS settings: boot order, date/time, hardware configuration.
+- Accessed during boot-up by pressing a key (often F2, Del, Esc, or F10).
+
+### Common BIOS Tasks for IT Support:
+- Changing boot order (e.g., boot from USB to reinstall OS).
+- Resetting BIOS settings.
+- Enabling/Disabling devices like virtualization or secure boot.
+- Reimaging a computer:
+  - Wipe current OS.
+  - Install a fresh OS image from USB, CD, or network.
+  - Must configure BIOS/UEFI to boot from the correct device.
+
+---
+
+# Installing The Processor
+
+## Why This Matters in IT Support
+As an IT Support Specialist, you’ll often be responsible for maintaining and troubleshooting desktops. Understanding how to install and handle CPUs helps you:  
+- Replace or upgrade hardware.  
+- Diagnose issues like overheating or boot failures.  
+- Build or reimage systems for deployment.
+
+---
+
+## Step 1: Anti-Static Safety – Protect the Hardware
+**Why?** Static electricity can damage or destroy delicate components.  
+Two ways to stay safe:  
+- Touch a grounded object (like a plugged-in, powered-off metal computer case) every few minutes.  
+- Use an anti-static wrist strap:
+  - Clip it to a non-painted metal part of the case.
+  - Strap it securely to your wrist.
+
+**Extra Tip:** Keep all parts in their anti-static bags until you’re ready to install them.
+
+---
+
+## Step 2: Prepare the Motherboard and Case
+- Choose compatible parts:
+  - Make sure your motherboard form factor (e.g., ATX) fits your case.
+  - The CPU must match the motherboard’s CPU socket type (e.g., LGA 1200).
+- Mount the motherboard:
+  - Locate the standoff holes in the case.
+  - Align them with the motherboard screw holes.
+  - Install standoffs if your case doesn’t already have them.
+  - Place the motherboard gently onto the standoffs.
+
+---
+
+## Step 3: Install the CPU
+⚠️ CPUs are fragile and expensive — handle by the edges!  
+- Remove the CPU from the anti-static bag.
+- Align the CPU correctly:
+  - Look for the gold triangle or marker on one corner of the CPU.
+  - Match it with the triangle or notch on the motherboard socket.
+  - Do not force it — it should slide in gently when aligned.
+- Secure the CPU:
+  - Close the socket cover and latch.
+  - You may need to apply light pressure to lock it in.
+
+**Extra Tip:** Only use CPUs compatible with the exact socket type of your motherboard (e.g., Intel LGA or AMD AM4).
+
+---
+
+## Step 4: Apply Thermal Paste
+**Why?** Thermal paste helps transfer heat from the CPU to the heat sink.  
+- Put a small dab (about the size of a grain of rice or a small pea) in the center of the CPU.
+- Spread evenly using a flat tool:
+  - Cover the surface without letting it spill over the edges.
+- An even layer improves cooling.
+
+---
+
+## Step 5: Install the Heat Sink
+- Place the heat sink carefully over the CPU:
+  - Make sure the screws align with the mounting holes.
+- Tighten the screws in a cross-pattern:
+  - This ensures even pressure and a secure fit.
+  - Example: tighten top-left, then bottom-right, then top-right, then bottom-left.
+- Double-check tightness:
+  - Go over the screws again to make sure they’re secure.
+
+**Extra Tip:** Many heat sinks come with pre-applied thermal paste. If so, skip Step 4.
+
+---
+
+## Step 6: Connect the CPU Fan
+- Locate the CPU_FAN header on the motherboard.
+- Plug the heat sink fan cable into the header.
+- This allows the system to monitor and adjust fan speed automatically.
+
+---
+
+## Final Check: CPU Installed Successfully
+You’ve now:  
+- Protected your components from static.  
+- Installed the CPU with correct alignment and pressure.  
+- Applied thermal paste and secured the heat sink.  
+- Plugged in the fan for proper cooling control.  
+- Your CPU is ready to boot.
+
+---
+
+# Installing RAM and the Storage Drive
+
+## Installing RAM (Memory)
+RAM (Random Access Memory) is the short-term memory of your computer — it helps your system run faster and handle more tasks at once.
+
+### Step-by-Step Guide for Installing RAM
+1. Locate the DIMM Slots  
+   These are the long slots on the motherboard, usually placed near the CPU.  
+   DIMM = Dual Inline Memory Module.
+2. Check Compatibility  
+   RAM must match your motherboard specifications (e.g., DDR3, DDR4, or DDR5).  
+   Match the notch in the RAM stick with the key in the slot to avoid incorrect installation.
+3. Plan the Placement  
+   Use matching slots (e.g., both white slots if color-coded). This enables dual-channel mode for better performance.  
+   Gently check all your RAM sticks and align the notch visually before installing to avoid forcing them in.
+4. Install the RAM  
+   Insert the stick into the slot, pressing firmly down on both ends until you hear a click.  
+   The side latches will close around the RAM automatically when it’s installed correctly.  
+   Repeat for all sticks.
+
+**Pro Tip:** Always start with the recommended slots per the motherboard manual (often 2nd and 4th if using 2 sticks).
+
+**Success Check:**  
+- Each stick clicks in securely.  
+- Both latches snap shut.  
+- No visible gap between RAM and motherboard.
+
+---
+
+## Installing the Drive (SSD or HDD)
+SSDs (Solid State Drives) are faster and more reliable than traditional HDDs (Hard Disk Drives). Modern builds use SSDs for the operating system and essential apps.
+
+### Step-by-Step Guide for Installing an SSD
+1. Mount the Drive  
+   Insert the SSD into the drive cage or bay inside the case.  
+   Slide it in until you hear a click or secure it using screws (depends on case design).
+2. Connect the SATA Cable  
+   Plug one end into the SSD.  
+   Plug the other end into a SATA port on the motherboard.  
+   SATA ports are usually labeled and located near the bottom right.
+3. Connect Power  
+   Use a SATA power cable from the power supply.  
+   Connect it to the power port on the SSD.
+
+**Pro Tip:** SATA cables only go in one direction. Don’t force them.
+
+---
+
+## Optional: Installing a Case Fan
+Case fans help maintain airflow and cool your components.
+
+### How to Install
+- Match the fan screw holes with the case and secure using screws.
+- Connect the fan cable to the FAN or CHA_FAN header on the motherboard.
+
+### Airflow Tip
+- Position fans to bring cool air in from the front or bottom and push hot air out the back or top.  
+- This airflow setup is called a wind tunnel.
+
+---
+
+## Final Step: Install and Secure the Power Supply (PSU)
+1. Insert the PSU into the Case  
+   Carefully slide the power supply unit into its designated space (usually bottom-back of the case).  
+   Keep cables clear of the motherboard to avoid damage.
+2. Secure the PSU  
+   Use 4 screws to tightly attach the PSU to the case.  
+   Start each screw with your fingers, then finish with a screwdriver.
+3. Manage Cables  
+   Route cables neatly to keep them out of airflow paths and away from fans or the motherboard.
+
+**Optional Note:** Some builders install the PSU before the motherboard, depending on case design.
+
+---
+
+# Adding Graphics and Other Peripherals
+
+## Connecting Power Supply to Motherboard & CPU
+
+### 24-Pin Connector
+- This is the main power connector from the power supply (PSU) to the motherboard.
+- It’s the largest connector on the PSU, typically 24 pins.
+- Line it up carefully and press firmly into the motherboard’s 24-pin slot.
+
+**Tip:** This connection powers everything on your motherboard.
+
+### 8-Pin (or 4+4 Pin) CPU Connector
+- This powers the CPU and is located near the top-left of the motherboard.
+- It may feel tight to connect — that's normal.
+- Push until it clicks into place.
+
+---
+
+## Connect Case Cables
+These small cables allow your case buttons and lights to communicate with the motherboard.
+
+### Common Case Cables
+- Power switch (PWR_SW)  
+- Reset switch (RESET_SW)  
+- Power LED (PWR_LED)  
+- HDD LED  
+
+### How to Connect
+- These go to a section called Front Panel Header on the motherboard.  
+- Refer to the motherboard manual or onboard diagram to match pins.
+
+**Pro Tip:** Many motherboards come with a pin layout diagram or even an adapter to simplify this process.
+
+---
+
+## Install the Graphics Card (GPU)
+1. Find the PCIe Slot  
+   Typically a long, reinforced slot on the motherboard, often labeled PCIe x16, near the CPU.
+2. Insert the GPU  
+   Line up the gold connectors with the slot.  
+   Push down firmly until you hear a click.  
+   The locking latch should snap into place.
+3. Secure to Case  
+   Use screws to fasten the GPU to the back of the case.  
+   Some GPUs also need a 6-pin or 8-pin power connector from the PSU.
+
+**Important:**  
+If your monitor is connected to the motherboard video port instead of the GPU, you might not see video!
+
+---
+
+## Close the Case
+1. Remove the Anti-Static Bracelet (after everything is connected and secured).  
+2. Close the Case Panels (snap or screw on the side panels).  
+3. Make sure no cables are pinched or blocking airflow.
+
+---
+
+## Connect Peripherals
+- Keyboard – via USB  
+- Mouse – via USB  
+- Monitor – via DisplayPort, HDMI, DVI, or VGA  
+
+Use the graphics card ports, not the motherboard, for display output if a GPU is installed.
+
+---
+
+## Power On and Boot Test
+1. Press Power Button  
+   You should see:  
+   - Lights turn on  
+   - Fans spinning  
+   - POST (Power-On Self-Test) on the screen
+2. Troubleshooting  
+   If your PC doesn’t boot, check:  
+   - PSU switch is on  
+   - Power cable is plugged in  
+   - RAM, CPU, and GPU are seated correctly  
+   - All power connectors are attached
+3. Common First Message:  
+   Non-System Disk or Disk Error  
+   This means the system can’t find an operating system (OS) to boot from — totally normal if you haven’t installed one yet.
+
+---
+
+# Mobile Device Repair
+
+## Repairing Mobile Devices: What IT Support Specialists Need to Know
+
+### Mobile Devices Are Different
+- Thousands of models → No one-size-fits-all repair method.  
+- Devices vary by brand, operating system, and hardware layout.
+
+---
+
+## General Repair Guidelines
+✅ Before Starting:  
+- Know your organization’s repair policy.  
+- Check the device’s warranty – many repairs void it.  
+  - Example: Replacing a screen might be allowed.  
+  - Replacing a charging port might void the warranty.  
+- Confirm if you're authorized to do the repair or if you must send it out.
+
+---
+
+## RMA (Return Merchandise Authorization)
+Used when sending a device to a manufacturer/vendor for:  
+- Warranty repair  
+- Replacement  
+
+Learn the specific RMA process for each brand/model.
+
+---
+
+## Protecting Data Before Sending a Device
+Factory Reset may be required:  
+- Removes: data, apps, custom settings.  
+- Protects: user privacy and organization’s proprietary data.
+
+---
+
+## Best Practices for Mobile Repair (Same as PC Repair)
+- Avoid ESD (Electrostatic Discharge) → Use anti-static tools.  
+- Use the correct tools (non-magnetic, plastic tools for small electronics).  
+- Organize and label screws/parts.  
+- Take pictures before and during disassembly – helps with reassembly.  
+- Follow official vendor documentation.  
+- Test the device fully after repair.
+
+---
+
+# Mobile Display Technologies Overview
+
+## Main Categories
+- **LCD (Liquid Crystal Display)** – Passive (non-emissive), needs backlight.  
+- **OLED (Organic Light Emitting Diode)** – Active (emissive), each pixel emits light.
+
+---
+
+## LCD Display Types
+
+| Type | How It Works | Uses | Pros | Cons |
+| --- | --- | --- | --- | --- |
+| IPS (In-Plane Switching) | Crystals aligned horizontally | High-end monitors, touch screens, color-accurate work | Wide viewing angles, vibrant color, high quality | Expensive, lower refresh rates, IPS glow |
+| TN (Twisted Nematic) | Crystals twist and untwist | Office work, budget displays, fast-paced games | Cheap, fast refresh/response, widely available | Poor viewing angles, weak colors |
+| VA (Vertical Alignment) | Crystals tilt vertically | General use, video, mid-range displays | Deep blacks, good contrast, decent performance | Motion blur, ghosting in fast scenes |
+
+---
+
+## OLED-Based Display Types
+
+| Type | How It Works | Uses | Pros | Cons |
+| --- | --- | --- | --- | --- |
+| OLED | Organic layer emits light when energized | TVs, foldables, VR, gaming | True blacks, vivid colors, energy efficient, thin | Burn-in, blue pixel decay, moisture sensitivity |
+| AMOLED | OLED + active matrix with individual pixel control | High-end smartphones, curved displays | High quality, fast response, integrates touch | Same as OLED, plus costly to manufacture |
+| Super AMOLED | Improved AMOLED with better contrast/colors | Flagship phones | Better sunlight visibility, vivid contrast | Same issues as AMOLED |
+| Mini-LED (mLED) | Smaller LEDs for LCD backlighting | Smartphones, displays, signage | Bright, HDR, thin, better than traditional LCD | Expensive, still limited by LCD |
+| Micro-LED (μLED) | Tiny, emissive inorganic LEDs | AR/VR, wearables, premium TVs | Superior brightness, low power, durable, HDR | Extremely expensive, not mass-produced yet |
+
+---
+
+## Key Takeaways for IT Support
+- Know your organization’s needs: Choose IPS for design work, TN for fast refresh rate tasks, VA for balance.  
+- OLED & AMOLED: Great for image quality but may suffer from long-term durability issues.  
+- Mini & Micro-LEDs: New tech with incredible potential, but currently limited by cost and availability.
 
 
