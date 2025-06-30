@@ -455,4 +455,429 @@ A Power Supply Unit (PSU) converts AC from the wall into low-voltage DC that the
 - Gaming / video editing PCs: Need higher wattage PSU.
 
 ---
+# 🛠 Diagnosing Power Supply Problems
+
+Common issues from a bad PSU:  
+- Computer doesn’t turn on  
+- Random shutdowns or crashes  
+
+PSU failures can happen due to:  
+- Burnouts  
+- Power surges  
+- Lightning strikes  
+
+✅ Every IT Support Specialist should know how to:  
+- Diagnose power supply issues  
+- Replace faulty power supplies  
+
+---
+
+# ⚙️ Power Supplies – Summary Guide
+
+## 🔌 What Does a Power Supply Do?  
+- Converts AC (Alternating Current) from wall outlets into DC (Direct Current) used by computers.  
+- Reduces voltage to a safe level for internal components.  
+- Part of the hardware layer in computer architecture.  
+
+## 🏗 Power Supply in Computer Architecture  
+Power supplies are essential to support:  
+- Motherboard  
+- CPU(s)  
+- RAM  
+- Storage devices  
+- Expansion cards  
+- Peripherals  
+
+Type and size of the power supply depends on the hardware components in the system.
+
+## 🌍 Input Voltage Standards by Region
+
+| Region                        | Voltage Standard  |
+|------------------------------|-------------------|
+| North, Central & parts of South America | 110–127 VAC     |
+| Most of the world             | 220–240 VAC       |
+
+> VAC = Volts of Alternating Current  
+
+Using the wrong voltage can:  
+- Undervolt (won’t run properly).  
+- Overvolt (can destroy components).
+
+## 🔧 Solutions for Voltage Mismatch  
+If a computer’s power supply doesn't match the country’s voltage:  
+- 🔁 Replace the power supply with one for local voltage.  
+- ⚙️ Use a dual-voltage PSU (switch between 110–120V and 220–240V).  
+- 🔌 Use an external power converter.  
+
+---
+
+# 🧠 Motherboard & Form Factor Specifications
+
+- **ATX:** Standard for most desktops.  
+- **ITX:** Used in smaller PCs.  
+
+Form factor determines:  
+- Power supply size  
+- Wattage requirements  
+- Connector type (e.g., 20-pin vs 24-pin)  
+
+---
+
+# 🔋 Power Consumption: Choose the Right Wattage
+
+| Usage Type         | Suggested Wattage         |
+|--------------------|--------------------------|
+| Basic tasks (browsing, docs) | Standard PSU (~300–500W) |
+| Gaming / Video editing | High-wattage PSU (600W+)   |
+
+Factors that increase power needs:  
+- High-end or multiple CPUs  
+- Top-tier GPU  
+- Multiple HDDs/SSDs  
+- External or internal peripherals  
+
+---
+
+# ⚡ Voltage Levels Used in Computers
+
+| Voltage | Used By                          |
+|---------|---------------------------------|
+| 3.3V    | DIMMs, chipsets, PCI/AGP cards  |
+| 5V      | SIMMs, disk logic, ISA, some regulators |
+| 12V     | Motors, high-output voltage regulators |
+
+Regulated by the motherboard using onboard voltage controllers.
+
+---
+
+# 🔌 Power Connectors in a Standard ATX PSU
+
+| Connector Type  | Purpose                      |
+|-----------------|------------------------------|
+| 24-pin ATX      | Main motherboard power (new standard) |
+| 20-pin ATX      | Older motherboards           |
+| 8-pin CPU (EPS12V) | Powers the CPU              |
+| P4 (4-pin)      | Legacy CPU connector (can combine to 8) |
+| 6-pin GPU       | Powers some graphics cards   |
+| 6+2 (8-pin) GPU | Powers higher-end graphics cards |
+| SATA power      | Connects to SATA HDDs/SSDs  |
+| Molex           | IDE drives, fans, legacy devices |
+| Floppy connector| Obsolete – for floppy disk drives |
+
+---
+
+✅ **Key Takeaways**  
+To choose the correct power supply, consider:  
+- ✅ Input Voltage Standard of the country (110-127V or 220-240V).  
+- ✅ Power needs of components: CPU, GPU, drives, etc.  
+- ✅ Motherboard type and form factor (ATX, ITX) for compatibility.  
+
+---
+
+# 📱 Mobile Devices – Summary Guide
+
+## 🧠 What Are Mobile Devices?  
+Mobile devices are computers — they include:  
+- CPU  
+- RAM  
+- Storage  
+- Power systems  
+- Peripherals  
+
+**Key difference:** They’re portable and often battery-powered.
+
+## 🧳 Types of Mobile Devices
+
+- **General-purpose mobile devices:**  
+  - Smartphones  
+  - Tablets  
+
+- **Specialized mobile devices:**  
+  - Fitness trackers  
+  - Smartwatches  
+  - E-readers  
+
+## 🔩 Integration in Mobile Devices  
+Unlike desktops/laptops where components are separate and swappable, mobile devices have:  
+- Highly integrated hardware  
+- Components like CPU, RAM, and storage often soldered directly to the motherboard  
+
+## 💡 System on a Chip (SoC)  
+Small mobile devices often use SoC, which integrates:  
+- CPU  
+- RAM  
+- Sometimes storage  
+
+**Benefits of SoC:**  
+- Smaller footprint  
+- More energy-efficient (uses less battery)
+
+## 🧩 Peripherals & Connectivity  
+Mobile devices use and act as peripherals:  
+- e.g., A smartphone connects to Bluetooth headphones  
+- A fitness tracker can:  
+  - Be independent  
+  - Also act as a peripheral for a smartphone  
+  - Connect to other peripherals like a heart rate monitor  
+
+## 🔌 Ports and Connectors  
+Mobile devices may use standard or proprietary connectors.  
+Custom connectors are often used for durability or design reasons, e.g., waterproof devices.
+
+### 🔌 Common Mobile Connectors:
+
+| Connector Type | Use Case Example           |
+|----------------|----------------------------|
+| USB-C          | Modern Android phones, tablets |
+| Lightning      | Apple devices               |
+| Mini-USB       | Older peripherals           |
+| Micro-USB      | Older Androids, accessories |
+| Mini HDMI / HDMI | Video output              |
+| Mini DisplayPort | Apple/Mac older video output |
+
+> 📌 Note: Some mobile devices require adapters due to shape, waterproofing, or proprietary design.
+
+## ⚙️ Mobile Operating Systems & Software  
+Mobile OS/software are designed to:  
+- Be lightweight  
+- Maximize battery life and performance  
+
+Examples: Android, iOS  
+(More on mobile OS and apps will come in future lessons.)
+
+## 🧰 IT Support Responsibilities  
+As an IT support specialist, your mobile device tasks might include:  
+- Device setup  
+- Troubleshooting  
+- Repair or replacement  
+- Managing data & backups  
+
+## 🔐 BYOD – Bring Your Own Device  
+When employees use personal devices for work:  
+- It’s called BYOD  
+- These devices often contain personal data  
+- Always respect privacy  
+- Follow your organization’s BYOD policy for support procedures  
+
+---
+
+✅ **Key Takeaways**  
+- Mobile devices are just compact, integrated computers.  
+- They require custom care, both hardware-wise and data-wise.  
+- Learn their connectors, components, and use cases.  
+- When supporting users, especially with BYOD, always follow company policy and respect privacy.  
+
+---
+
+# 🔋 Batteries and Charging Systems – Summary Guide
+
+## 🔌 Purpose of Rechargeable Batteries  
+- Allow mobility — devices don’t need to be plugged in constantly.  
+- Found in most mobile technologies: phones, laptops, tablets, etc.
+
+## 🔄 Charging Methods  
+- External charger (for removable batteries)  
+- Cradle stand or docking station  
+- Wireless (inductive) charging pad  
+  - Uses electromagnetic fields to charge without plugging in
+
+## ♻️ Battery Lifespan & Charge Cycles  
+- Charge cycle = 1 full charge + 1 full discharge  
+- Over time:  
+  - Battery charges more slowly  
+  - Holds less charge  
+- You can compare current cycle count to the expected cycle lifespan to estimate battery health  
+
+## ⚡ Power Sources & Charging Circuits  
+- External power can come from:  
+  - Wall outlet  
+  - Another battery  
+  - Solar panel  
+- Charging circuit:  
+  - Regulates power going into the battery  
+  - Converts input to safe, appropriate output  
+  - Works like a smaller version of a Power Supply Unit (PSU)
+
+## 🪫 Portable Chargers & Compatibility  
+- Portable chargers can:  
+  - Power the device  
+  - Charge the battery simultaneously  
+- ✅ Always use the correct charger:  
+  - Wrong charger = risk of damage to device, battery, or charger  
+- 🔌 Common connectors: USB, USB-C, Lightning, Micro-USB, etc.
+
+## 🌡️ Safe Battery Usage  
+Avoid charging or using batteries in:  
+- Extreme cold or heat  
+- 🔥 Damaged batteries can:  
+  - Swell  
+  - Rupture  
+  - Catch fire  
+- Always follow safety procedures when handling bad batteries  
+
+## 🔁 Battery Replacement  
+Signs a battery needs replacing:  
+- Slower performance  
+- Random shutdowns  
+- Devices may throttle (slow down) performance to extend battery life  
+
+Battery replacement options:  
+- Some are user-replaceable  
+- Others require IT specialist or sending out for service  
+
+## 🧰 IT Support Responsibilities  
+- Troubleshoot:  
+  - Battery life  
+  - Charging issues  
+- Confirm:  
+  - Charger, battery, and device are compatible  
+- You may be responsible for:  
+  - Performing battery replacements  
+  - Sending out devices and returning them to users  
+
+## 💡 Helping Users Maximize Battery Life  
+Know how to extend battery life on:  
+- iOS devices  
+- Android devices  
+Teach end-users best practices for preserving battery performance  
+
+---
+
+✅ **Key Takeaways**  
+- Rechargeable batteries are essential for mobile devices  
+- Always match the right charger to the right device  
+- Battery health affects performance and safety  
+- IT support should know how to troubleshoot and manage battery-related issues  
+- Educating users on safe charging and battery-saving tips is part of the role  
+
+---
+
+# 🔌 Peripherals and Ports Summary
+
+## 🔹 What is a Peripheral?  
+Definition: Any external device that adds functionality to a computer.  
+Examples: Mouse, keyboard, monitor, printer, webcam, external hard drive.
+
+## 🔌 USB (Universal Serial Bus)
+
+### 🔸 Common USB Standards
+
+| Version | Color (usually) | Speed (Max) | Notes                      |
+|---------|-----------------|-------------|----------------------------|
+| USB 2.0 | Black           | 480 Mb/s    | Older standard, still widely used |
+| USB 3.0 | Blue            | 5 Gb/s      | Faster transfer rate         |
+| USB 3.1 | Teal            | 10 Gb/s     | Even faster, more modern     |
+
+> 🧠 Note:  
+> Mb/s (megabits/second) ≠ MB/s (megabytes/second)  
+> 1 byte = 8 bits  
+> So, 8 Mb/s = 1 MB/s
+
+### 🔸 USB Compatibility  
+- Backward compatible: You can use USB 2.0 devices in USB 3.0 ports (but only at 2.0 speed).  
+- Connector types:  
+  - Type-A: Classic rectangular plug.  
+  - Type-B: Often used for printers.  
+  - Micro/Mini USB: For smaller devices (like cameras or old phones).  
+  - USB-C: New universal standard – supports data, video, power, and reversible plug.
+
+## 🖥️ Display Connectors
+
+### 🔸 Common Display Ports
+
+| Port Type | Audio? | Video? | Notes                         |
+|-----------|--------|--------|-------------------------------|
+| DVI       | ❌     | ✅     | Older standard, no audio       |
+| HDMI      | ✅     | ✅     | Very common in TVs & monitors  |
+| DisplayPort | ✅   | ✅     | Used in high-performance displays |
+| USB-C     | ✅     | ✅     | Can carry video, audio, data, and power – increasingly popular |
+
+## 🧰 Why It Matters for IT Support  
+As an IT Support Specialist, you'll:  
+- Identify and troubleshoot various USB and display ports.  
+- Guide users on which peripherals and cables to use.  
+- Ensure compatibility (e.g., knowing why their USB 3.0 drive is slow on a 2.0 port).  
+- Set up monitors, projectors, or docking stations with the correct video/audio cables.
+
+---
+# 🔌 Connector Types & Projectors – Summary for IT Support
+
+## 🧷 Connector Types
+
+IT Support professionals frequently work with connectors and ports to troubleshoot and install devices. Here's a breakdown of the most common types:
+
+### 🔌 USB Connectors
+| USB Version | Port Color | Max Speed    | Notes                      |
+|-------------|------------|--------------|----------------------------|
+| USB 2.0     | Black      | 480 Mbps     | Still widely used          |
+| USB 3.0     | Blue       | 5 Gbps       | Faster, backward compatible|
+| USB 3.1     | Teal       | 10 Gbps      | Very fast, modern systems  |
+
+- USB ports are **backward compatible** (e.g., USB 3 in USB 2 port works at 2.0 speed).
+- Connects peripherals like keyboards, drives, webcams, etc.
+
+### 📱 Mobile/Modern USB Variants
+- **Micro USB**: Older Androids and small devices.
+- **USB-C**: Reversible, supports 20 Gbps and high power.
+- **USB4 (Thunderbolt)**: Uses USB-C cables, up to 40 Gbps.
+- **Lightning**: Apple-exclusive; power + data + video.
+
+### 🌐 Communication Connectors
+| Connector Type | Used For                       |
+|----------------|--------------------------------|
+| RJ-11          | Landlines, dial-up, alarms     |
+| RJ-45          | Ethernet networks (DSL)        |
+| F-type         | Cable modems                   |
+| Fiber-optic    | High-speed long-distance data  |
+
+### 💾 Legacy & Power Connectors
+- **DB89**: Older input devices (joysticks, mice).
+- **Molex**: Power to internal components (HDDs, video cards).
+
+### 🔧 Punch Down Blocks
+- Used to connect telephone or LAN data lines.
+- Common in structured cabling and quick re-wiring.
+
+### ✅ Key Takeaways
+- USB connectors = most common (power + data).
+- Communication connectors connect devices to networks.
+- IT support must recognize both modern and legacy connectors.
+
+---
+
+## 📽 Projectors
+
+Projectors function like other display devices but have specific maintenance and troubleshooting considerations.
+
+### 🔌 Connecting Projectors
+- Use **VGA, DVI, HDMI, or DisplayPort** cables.
+- OS auto-detects new display (can extend or mirror screen).
+- Always test with known-good cables — projector flickering/disconnection often means damaged cables.
+
+### 🧰 Driver Issues
+- Unrecognized projectors may default to low-res (640x480).
+- Check for updated drivers on the manufacturer’s support page.
+
+### 💡 Lighting Technology
+| Bulb Type       | Notes                                            |
+|------------------|--------------------------------------------------|
+| Incandescent Lamp | Gets hot, may shut down when overheated         |
+| LED              | Longer lifespan, cooler, more efficient          |
+
+- Lamp burnout = projector won’t power on or shuts off mid-use.
+
+### 🧭 Image Calibration
+- Necessary after install, reset, or moving.
+- Adjustments:
+  - Focus
+  - Geometry (keystone/skew)
+  - Alignment with screen
+- Each projector model may differ → follow vendor documentation.
+
+### ✅ Key Takeaways
+- Projectors share common issues with monitors (dead pixels, low resolution).
+- Cables are a frequent point of failure.
+- Ensure correct drivers and lighting systems are maintained.
+- Always calibrate after any physical adjustments.
+
 
