@@ -123,5 +123,83 @@ Your CPU is:
 
 You’re almost ready to wire everything up and boot for the first time!
 
+# 🧩 Final Build Steps: Graphics Card, Case Cables, Peripherals & First Boot
+
+---
+
+## ⚡ Step 1: Connect Power Supply to Motherboard
+
+- Plug the **24-pin main connector** into the motherboard.
+- Plug the **8-pin (or 4+4) CPU power cable** into the socket near the CPU.
+  - Both are essential for powering the system.
+
+---
+
+## 🎛️ Step 2: Connect Case Cables (Front Panel)
+
+- Attach the **case I/O cables** (power button, reset button, HDD LED, power LED).
+- Placement varies by motherboard model — check the **motherboard manual or label**.
+- Optional: Use included **cable guides or clips** to keep everything tidy.
+
+---
+
+## 🎮 Step 3: Install the Graphics Card (GPU)
+
+- Insert the **graphics card** into the **PCIe x16 slot** on the motherboard.
+- Apply **gentle but firm pressure** until it clicks into place.
+- Secure the card to the case using screws (location may vary by case).
+- If your GPU requires external power, plug in the **6/8-pin PCIe power cables** from the PSU.
+
+---
+
+## 🖥️ Step 4: Attach the Side Panel
+
+- Detach your **anti-static bracelet**.
+- Place and secure the **side panel** on your case.
+- Now your build is physically complete!
+
+---
+
+## 🔌 Step 5: Connect Peripherals
+
+- Plug in the **keyboard and mouse** into USB ports.
+- Connect the **monitor** to the GPU using:
+  - **DisplayPort** (used in this example)
+  - Or HDMI, DVI, VGA depending on your monitor/GPU
+
+---
+
+## 🚀 Step 6: First Boot Test
+
+- Press the **power button**:
+  - Look for **power indicator lights** or **fan movement**.
+  - Check if the **monitor receives a signal**.
+
+> ✅ If everything is connected correctly, you’ll see a boot screen or system message.
+
+---
+
+## 🧱 Common First Boot Issue: No OS
+
+- You may see an error like:
+-Non-system disk or disk error.
+-Replace and strike any key when ready.
+
+- This means there's **no operating system installed yet** — totally normal!
+- Next step: **install an operating system**, which will be covered in the next lesson.
+
+---
+
+## 🎉 Final Thoughts
+
+You’ve successfully:
+- Learned about and handled each PC component.
+- Installed and powered up a full system.
+- Connected peripherals and verified functionality.
+
+**Congratulations — You built your first computer! 💻🔥**
+
+
+
 
 
