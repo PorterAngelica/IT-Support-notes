@@ -58,3 +58,38 @@ Process B → [time slice]
 Process C → [time slice]
 ...repeat...
 
+## ⚡ This switching happens so quickly that it feels like everything runs at the same time.
+
+---
+
+## 🐢 Why Is My Computer Slow?
+
+If your system is lagging, there may be CPU-related issues, such as:
+
+- A single process using too many time slices  
+- Too many processes competing for CPU time  
+- Background processes overwhelming system capacity  
+
+In such cases, manual intervention (like killing a process) might be needed.
+
+---
+
+## 🧹 Process Termination
+
+The kernel also manages how processes are terminated:
+
+- Frees up system resources previously used  
+- Reallocates those resources to other processes  
+- Ensures system stability and efficiency  
+
+---
+
+## ✅ Summary
+
+| Concept             | Description                                                        |
+|---------------------|--------------------------------------------------------------------|
+| **Process**          | A running instance of a program                                   |
+| **Program**          | An application that can be launched (e.g., Chrome)                |
+| **Time Slice**       | Small time interval allocated by the CPU to run a process         |
+| **Process Scheduler**| Manages the execution order and timing of all processes           |
+| **Process Termination** | Releasing used resources and reallocating them              |
