@@ -58,6 +58,8 @@ Process B → [time slice]
 Process C → [time slice]
 ...repeat...
 
+```
+
 ## ⚡ This switching happens so quickly that it feels like everything runs at the same time.
 
 ---
