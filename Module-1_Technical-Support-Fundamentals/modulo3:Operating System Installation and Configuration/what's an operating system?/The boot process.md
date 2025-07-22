@@ -138,18 +138,13 @@ While having two operating systems can be helpful for various reasons, it is esp
 
 ## Resource Links
 
-How to make a bootable CD/DVD/USB to install windows
+- [How to Make a Bootable USB/CD/DVD to Install Windows Using an ISO File](https://www.makeuseof.com/tag/make-bootable-usb-cd-dvd-install-windows-using-iso-file/)
+- [How to Build Your Own Bootable Linux Live CD](https://www.makeuseof.com/tag/build-bootable-linux-live-cd/)
+- [Create a Bootable Installer for macOS (Apple Support)](https://support.apple.com/en-us/101578)
+- [What is Preboot Execution Environment (PXE)? (TechTarget)](https://www.techtarget.com/searchnetworking/definition/Preboot-Execution-Environment)
+- [How to Set Up PXE Boot for UEFI Hardware (Red Hat Blog)](https://www.redhat.com/en/blog/pxe-boot-uefi)
+- [Installing and Configuring the RAC Software (University of Waterloo)](https://cs.uwaterloo.ca/~brecht/servers/docs/PowerEdge-2600/en/ERA/rac34c6.htm)
+- [How to Enable and Use Wake on LAN (WoL) on Windows 10 (Windows Central)](https://www.windowscentral.com/how-enable-and-use-wake-lan-wol-windows-10)
 
-How to build your own bootable Linux Live CD
-
-Create a bootable installer for macOS
-
-What is preboot execution environment (PXE)?
-
-How to set up PXE boot for UEFI hardware
-
-Installing and configuring the RAC software
-
-How to enable and use Wake on LAN (WoL) on Windows 10
 
 
