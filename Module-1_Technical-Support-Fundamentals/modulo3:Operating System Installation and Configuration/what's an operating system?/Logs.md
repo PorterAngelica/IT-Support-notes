@@ -1,15 +1,5 @@
 # 📓 Logs: Your System’s Diary
 
-Imagine you’re playing your favorite video game and finally reach the big boss.  
-You’ve spent hours finding it, ignoring everything else—work, school, even hygiene.  
-Just as you’re about to defeat the boss, your console suddenly shuts off.
-
-😱 You panic.
-
-But then you remember you saved your game right before the boss.  
-You turn it back on, ready to continue... and it shuts off again.  
-This happens repeatedly. Frustrated, you want to know: **What’s wrong?!**
-
 ---
 
 ## 🗣️ How Computers "Talk" to Us
