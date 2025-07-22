@@ -286,5 +286,24 @@ Press `q` to quit the manual
 - cd ..
 - rm -r testfolder
 
+---
+# 📚 Supplemental Reading for Ubuntu
+
+To deepen your understanding and get the most out of Ubuntu, here are some helpful resources:
+
+- **Learn more about Ubuntu:**  
+  [https://ubuntu.com/](https://ubuntu.com/)
+
+- **Create a bootable USB drive (Etcher):**  
+  A simple tool to load your Ubuntu installation image onto a USB drive.  
+  [https://etcher.balena.io/](https://etcher.balena.io/)
+
+- **View Ubuntu updates and packages:**  
+  Stay informed with the latest updates and package versions for Ubuntu.  
+  [https://www.ubuntuupdates.org/](https://www.ubuntuupdates.org/)
+
+- **Why Ubuntu switched to GNOME:**  
+  Read about the decision to move from Unity back to GNOME as the default desktop environment.  
+  [https://arstechnica.com/information-technology/2017/04/ubuntu-unity-is-dead-desktop-will-switch-back-to-gnome-next-year/](https://arstechnica.com/information-technology/2017/04/ubuntu-unity-is-dead-desktop-will-switch-back-to-gnome-next-year/)
 
 
