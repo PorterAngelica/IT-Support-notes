@@ -50,7 +50,9 @@ In the last lesson, you learned how an operating system boots up. Now, let's wal
 | Installation Media       | Disk, USB, or internet-based installation                         |
 | Scalability              | Important for managing multiple installations efficiently         |
 
-##Supplemental Reading for choosing an OS
+---
+
+## Supplemental Reading for choosing an OS
 [Windows vs macOS vs Chrome OS vs Ubuntu Linux: Which Operating System Reigns? - PCMag 🥇](https://www.pcmag.com/picks/windows-vs-macos-vs-chrome-os-vs-ubuntu-linux-which-operating-system-reigns)
 
 
