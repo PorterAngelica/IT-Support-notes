@@ -203,3 +203,15 @@ Software bug: An error in software that causes unexpected results
 Software management: A broad term used to refer to any and all kinds of software that are designed to manage or help manage some sort of project or task
 
 System software: Software used to keep our core system running, like operating system tools and utilities
+---
+#Glossary terms from course 1, module 6
+**New terms and their definitions: Course 1 Module 6**
+404 Not Found: An error message you might see on websites that have been moved or deleted 
+
+Error message: Helpful indicators that can point you in the right direction
+
+Permission denied: An error message you might find when accessing a protected file
+
+Root cause: The main factor that's causing a range of issues
+
+Troubleshooting: The ability to diagnose and resolve a problem
