@@ -1,4 +1,5 @@
 # 🧠 New Terms and Their Definitions  
+Course 1: Technical Support Fundamentals Glossary - https://docs.google.com/document/d/1ViWtKYx5uYk62xTUqjbww_wKJzwxqp0yUcJIlPXRnxo/template/preview?pli=1
 **Course 1 – Module 3**
 
 ---
