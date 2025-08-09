@@ -66,19 +66,18 @@ There are several models to describe **layers of communication** in networking.
 | Transport Layer   | TCP (Transmission Control Protocol), UDP (User Datagram Protocol) | Segments (TCP), Datagrams (UDP) | Port numbers                 |
 | Application Layer | HTTP, FTP, DNS, DHCP                 | Data                    | Uses IP and port addressing  |
 
+> **Note:**  
+> These models help explain the **layered nature** of networking, where **each layer depends on the one below it**.
 
 ### OSI Model
 - **7 layers**.
-- 1. Physical  
+1. Physical  
 2. Data Link  
 3. Network  
 4. Transport  
 5. Session  
 6. Presentation  
 7. Application  
-
-> **Note:**  
-> These models help explain the **layered nature** of networking, where **each layer depends on the one below it**.
 
 ---
 
